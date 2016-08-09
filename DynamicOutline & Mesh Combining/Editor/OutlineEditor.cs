@@ -17,7 +17,7 @@ public class OutlineEditor : Editor {
         EditorGUILayout.Separator();
         GUILayout.BeginHorizontal();
 
-        GUILayout.Label("Neither of these Options currently support SkinnedMeshRenderers");
+        GUILayout.Label("Combining Meshes currently does not work very well with SkinnedMeshRenderers");
 
         GUILayout.EndHorizontal();
 
